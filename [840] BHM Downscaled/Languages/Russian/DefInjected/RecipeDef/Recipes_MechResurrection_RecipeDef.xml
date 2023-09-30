@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/Recipes_MechResurrection.xml-->
+<ResurrectMechCN.jobString>Воскрешает меха.</ResurrectMechCN.jobString>
+<ResurrectMechCN.label>воскресить механоида серии CN</ResurrectMechCN.label>
+<ResurrectMechCN.description>Воскресите дружественного механоида из серии CN. Если тело механоида не полностью разрушено, его можно воскресить.</ResurrectMechCN.description>
+
+</LanguageData>

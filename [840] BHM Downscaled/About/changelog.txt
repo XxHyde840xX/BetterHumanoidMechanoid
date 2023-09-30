@@ -1,0 +1,1 @@
+- Mechanoid textures downscaled to 1024x1024.

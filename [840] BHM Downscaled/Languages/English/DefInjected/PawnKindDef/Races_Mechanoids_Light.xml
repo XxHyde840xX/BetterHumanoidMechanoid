@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Maid -->
+
+  <Mech_CNMaid.label>mechanical maid</Mech_CNMaid.label>
+  <Mech_CNMaid.labelPlural>mechanical maid</Mech_CNMaid.labelPlural>
+  <Mech_CNMaid.labelMale>mechanical maid</Mech_CNMaid.labelMale>
+  <Mech_CNMaid.labelMalePlural>mechanical maid</Mech_CNMaid.labelMalePlural>
+  <Mech_CNMaid.labelFemale>mechanical maid</Mech_CNMaid.labelFemale>
+  <Mech_CNMaid.labelFemalePlural>mechanical maid</Mech_CNMaid.labelFemalePlural>
+
+
+  <!-- Nurse -->
+
+  <Mech_CNNurse.label>mechanical nurse</Mech_CNNurse.label>
+  <Mech_CNNurse.labelPlural>mechanical nurse</Mech_CNNurse.labelPlural>
+  <Mech_CNNurse.lifeStages.0.label>mechanoid nurse</Mech_CNNurse.lifeStages.0.label>
+  <Mech_CNNurse.lifeStages.0.labelPlural>mechanoid nurse</Mech_CNNurse.lifeStages.0.labelPlural>
+  <Mech_CNNurse.lifeStages.0.labelMale>male mechanoid nurse</Mech_CNNurse.lifeStages.0.labelMale>
+  <Mech_CNNurse.lifeStages.0.labelMalePlural>male mechanoid nurses</Mech_CNNurse.lifeStages.0.labelMalePlural>
+  <Mech_CNNurse.lifeStages.0.labelFemale>female mechanoid nurse</Mech_CNNurse.lifeStages.0.labelFemale>
+  <Mech_CNNurse.lifeStages.0.labelFemalePlural>female mechanoid nurses</Mech_CNNurse.lifeStages.0.labelFemalePlural>
+  <Mech_CNNurse.lifeStages.1.label>mechanoid nurse</Mech_CNNurse.lifeStages.1.label>
+  <Mech_CNNurse.lifeStages.1.labelPlural>mechanoid nurse</Mech_CNNurse.lifeStages.1.labelPlural>
+  <Mech_CNNurse.lifeStages.1.labelMale>male mechanoid nurse</Mech_CNNurse.lifeStages.1.labelMale>
+  <Mech_CNNurse.lifeStages.1.labelMalePlural>male mechanoid nurses</Mech_CNNurse.lifeStages.1.labelMalePlural>
+  <Mech_CNNurse.lifeStages.1.labelFemale>female mechanoid nurse</Mech_CNNurse.lifeStages.1.labelFemale>
+  <Mech_CNNurse.lifeStages.1.labelFemalePlural>female mechanoid nurses</Mech_CNNurse.lifeStages.1.labelFemalePlural>
+  <Mech_CNNurse.labelMale>mechanical nurse</Mech_CNNurse.labelMale>
+  <Mech_CNNurse.labelMalePlural>mechanical nurse</Mech_CNNurse.labelMalePlural>
+  <Mech_CNNurse.labelFemale>mechanical nurse</Mech_CNNurse.labelFemale>
+  <Mech_CNNurse.labelFemalePlural>mechanical nurse</Mech_CNNurse.labelFemalePlural>
+
+
+  <!-- Centiplus -->
+
+  <Mech_CNCentipede.label>Mechanical Heavy Centipede</Mech_CNCentipede.label>
+  <Mech_CNCentipede.labelPlural>Mechanical Heavy Centipede</Mech_CNCentipede.labelPlural>
+  <Mech_CNCentipede.lifeStages.0.label>centiplus</Mech_CNCentipede.lifeStages.0.label>
+  <Mech_CNCentipede.lifeStages.0.labelPlural>centiplus</Mech_CNCentipede.lifeStages.0.labelPlural>
+  <Mech_CNCentipede.lifeStages.0.labelMale>male centiplus</Mech_CNCentipede.lifeStages.0.labelMale>
+  <Mech_CNCentipede.lifeStages.0.labelMalePlural>male centipluss</Mech_CNCentipede.lifeStages.0.labelMalePlural>
+  <Mech_CNCentipede.lifeStages.0.labelFemale>female centiplus</Mech_CNCentipede.lifeStages.0.labelFemale>
+  <Mech_CNCentipede.lifeStages.0.labelFemalePlural>female centipluss</Mech_CNCentipede.lifeStages.0.labelFemalePlural>
+  <Mech_CNCentipede.lifeStages.1.label>centiplus</Mech_CNCentipede.lifeStages.1.label>
+  <Mech_CNCentipede.lifeStages.1.labelPlural>centiplus</Mech_CNCentipede.lifeStages.1.labelPlural>
+  <Mech_CNCentipede.lifeStages.1.labelMale>male centiplus</Mech_CNCentipede.lifeStages.1.labelMale>
+  <Mech_CNCentipede.lifeStages.1.labelMalePlural>male centipluss</Mech_CNCentipede.lifeStages.1.labelMalePlural>
+  <Mech_CNCentipede.lifeStages.1.labelFemale>female centiplus</Mech_CNCentipede.lifeStages.1.labelFemale>
+  <Mech_CNCentipede.lifeStages.1.labelFemalePlural>female centipluss</Mech_CNCentipede.lifeStages.1.labelFemalePlural>
+  <Mech_CNCentipede.labelMale>Mechanical Heavy Centipede</Mech_CNCentipede.labelMale>
+  <Mech_CNCentipede.labelMalePlural>Mechanical Heavy Centipede</Mech_CNCentipede.labelMalePlural>
+  <Mech_CNCentipede.labelFemale>Mechanical Heavy Centipede</Mech_CNCentipede.labelFemale>
+  <Mech_CNCentipede.labelFemalePlural>Mechanical Heavy Centipede</Mech_CNCentipede.labelFemalePlural>
+
+
+  <!-- SwordsGirl -->
+
+  <Mech_CNSwordsGirl.label>Mechanical Swordsgirl</Mech_CNSwordsGirl.label>
+  <Mech_CNSwordsGirl.labelPlural>Mechanical Swordsgirl</Mech_CNSwordsGirl.labelPlural>
+  <Mech_CNSwordsGirl.lifeStages.0.label>mechanoid swordmaiden</Mech_CNSwordsGirl.lifeStages.0.label>
+  <Mech_CNSwordsGirl.lifeStages.0.labelPlural>mechanoid swordmaiden</Mech_CNSwordsGirl.lifeStages.0.labelPlural>
+  <Mech_CNSwordsGirl.lifeStages.0.labelMale>male mechanoid swordmaiden</Mech_CNSwordsGirl.lifeStages.0.labelMale>
+  <Mech_CNSwordsGirl.lifeStages.0.labelMalePlural>male mechanoid swordmaidens</Mech_CNSwordsGirl.lifeStages.0.labelMalePlural>
+  <Mech_CNSwordsGirl.lifeStages.0.labelFemale>female mechanoid swordmaiden</Mech_CNSwordsGirl.lifeStages.0.labelFemale>
+  <Mech_CNSwordsGirl.lifeStages.0.labelFemalePlural>female mechanoid swordmaidens</Mech_CNSwordsGirl.lifeStages.0.labelFemalePlural>
+  <Mech_CNSwordsGirl.lifeStages.1.label>mechanoid swordmaiden</Mech_CNSwordsGirl.lifeStages.1.label>
+  <Mech_CNSwordsGirl.lifeStages.1.labelPlural>mechanoid swordmaiden</Mech_CNSwordsGirl.lifeStages.1.labelPlural>
+  <Mech_CNSwordsGirl.lifeStages.1.labelMale>male mechanoid swordmaiden</Mech_CNSwordsGirl.lifeStages.1.labelMale>
+  <Mech_CNSwordsGirl.lifeStages.1.labelMalePlural>male mechanoid swordmaidens</Mech_CNSwordsGirl.lifeStages.1.labelMalePlural>
+  <Mech_CNSwordsGirl.lifeStages.1.labelFemale>female mechanoid swordmaiden</Mech_CNSwordsGirl.lifeStages.1.labelFemale>
+  <Mech_CNSwordsGirl.lifeStages.1.labelFemalePlural>female mechanoid swordmaidens</Mech_CNSwordsGirl.lifeStages.1.labelFemalePlural>
+  <Mech_CNSwordsGirl.labelMale>Mechanical Swordsgirl</Mech_CNSwordsGirl.labelMale>
+  <Mech_CNSwordsGirl.labelMalePlural>Mechanical Swordsgirl</Mech_CNSwordsGirl.labelMalePlural>
+  <Mech_CNSwordsGirl.labelFemale>Mechanical Swordsgirl</Mech_CNSwordsGirl.labelFemale>
+  <Mech_CNSwordsGirl.labelFemalePlural>Mechanical Swordsgirl</Mech_CNSwordsGirl.labelFemalePlural>
+
+
+</LanguageData>

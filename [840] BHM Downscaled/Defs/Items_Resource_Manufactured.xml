@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="SubcoreBase">
+		<defName>SubcoreBiological</defName>
+		<label>bio subcore</label>
+		<description>A sub-core based on the human heart. Although it has been questioned and criticized by many people, its efficient processing ability and outstanding energy control ability make it the most suitable secondary core for CN series machines. According to rumors, the soul of the owner of the heart is imprisoned in the sub-core of this model, so it is also regarded as a bad omen in some places.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/SubcoreBiological</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>SubcoreBiological</li>
+		</techHediffsTags>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>UltraMechtech</researchPrerequisite>
+			<workSpeedStat>SubcoreEncodingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>SubcoreEncoder</li>
+			</recipeUsers>
+			<mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
+			<unfinishedThingDef>UnfinishedSubcore</unfinishedThingDef>
+			<soundWorking>SubcoreEncoder_Working</soundWorking>
+		</recipeMaker>
+		<costList>
+			<Steel>50</Steel>
+			<SubcoreHigh>1</SubcoreHigh>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Heart>1</Heart>
+		</costList>
+	</ThingDef>
+</Defs>

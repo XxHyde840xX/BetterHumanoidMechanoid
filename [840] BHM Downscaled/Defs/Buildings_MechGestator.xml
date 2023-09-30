@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="CN_MechGestatorFormingSouth" ParentName="MechGestatorFormingBase">
+		<defName>CN_MechGestatorForming_South</defName>
+		<graphicData>
+			<texPath>Things/Building/Production/MechGestatorCNGlassGlow_south</texPath>
+			<shaderParameters>
+				<_MistOpacityTex>/Things/Building/Production/MechGestatorCNGlassGlowSoft_south</_MistOpacityTex>
+				<_ScanOffset>-0.11</_ScanOffset>
+				<_ScanScale>12.5</_ScanScale>
+			</shaderParameters>
+			<drawSize>(6, 5)</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="CN_MechGestatorFormingSouth">
+		<defName>CN_MechGestatorCycleComplete_South</defName>
+		<graphicData>
+			<color>(1, 0.36, 0)</color>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="CN_MechGestatorFormingSouth">
+		<defName>CN_MechGestatorFormed_South</defName>
+		<graphicData>
+			<color>(0.2, 1, 0.15)</color>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="MechGestatorBase">
+		<defName>CN_MechGestator</defName>
+		<label>bio-mech gestator</label>
+		<description>A cabin filled with extraordinary micro-mechanical liquid used for manufacturing or reviving the mechanical family, and connected with several livelihood pipes for conveying materials and nutrients. Unlike the standard mechanical incubator, the incubator has been further modified and optimized. The machinery cultivator of this scale can only be used to manufacture the CN machinery family.\n\nBecause the manufacturing process will use irritant chemicals. So the colonists must carry the toxic pollutants they produced from time to time and make proper arrangements.</description>
+		<graphicData>
+			<texPath>Things/Building/Production/MechGestatorCN_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6, 5)</drawSize>
+			<drawOffset>(0,0,0.25)</drawOffset>
+			<shadowData>
+				<volume>(3, 2, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/MechGestatorCN_MenuIcon</uiIconPath>
+		<uiIconScale>1.85</uiIconScale>
+		<interactionCellOffset>(2,0,-2)</interactionCellOffset>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>18000</WorkToBuild>
+			<Mass>25</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(4,3)</size>
+		<costList>
+			<Plasteel>150</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<researchPrerequisites>
+			<li>UltraMechtech</li>
+		</researchPrerequisites>
+		<building>
+			<barDrawData>
+				<north>
+					<preRotationOffset>(0, 0)</preRotationOffset>
+					<size>(0.5, 0.1)</size>
+				</north>
+				<south>
+					<preRotationOffset>(-1.133, 0.83)</preRotationOffset>
+					<size>(0.736, 0.0863)</size>
+				</south>
+				<east>
+					<preRotationOffset>(1.068, -0.971)</preRotationOffset>
+					<size>(0.812, 0.09)</size>
+				</east>
+				<west>
+					<preRotationOffset>(-1.11, -0.93)</preRotationOffset>
+					<size>(0.812, 0.09)</size>
+				</west>
+			</barDrawData>
+			<formingGraphicData>
+				<texPath>Things/Pawn/Mechanoid/HalfGestatedMechSmall</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(1,1)</drawSize>
+			</formingGraphicData>
+			<formingMechPerRotationOffset>
+				<li>(0, 0, 0.7)</li>
+				<li>(0, 0, 0.7)</li>
+				<li>(0, 0, 0.7)</li>
+				<li>(0, 0, 0.7)</li>
+			</formingMechPerRotationOffset>
+			<mechGestatorCylinderGraphic>
+				<texPath>Things/Building/Production/MechGestatorCNGlass_south</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(6, 5)</drawSize>
+				<drawOffset>(0,0,0.25)</drawOffset>
+				<shaderType>Transparent</shaderType>
+			</mechGestatorCylinderGraphic>
+			<mechGestatorTopGraphic>
+				<texPath>Things/Building/Production/MechGestatorCNTop_south</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(6, 5)</drawSize>
+				<drawOffset>(0,0,0.25)</drawOffset>
+			</mechGestatorTopGraphic>
+			<gestatorFormingMote>
+				<north>CN_MechGestatorForming_South</north>
+				<east>CN_MechGestatorForming_South</east>
+				<west>CN_MechGestatorForming_South</west>
+				<south>CN_MechGestatorForming_South</south>
+			</gestatorFormingMote>
+			<gestatorCycleCompleteMote>
+				<north>CN_MechGestatorCycleComplete_South</north>
+				<east>CN_MechGestatorCycleComplete_South</east>
+				<west>CN_MechGestatorCycleComplete_South</west>
+				<south>CN_MechGestatorCycleComplete_South</south>
+			</gestatorCycleCompleteMote>
+			<gestatorFormedMote>
+				<north>CN_MechGestatorFormed_South</north>
+				<east>CN_MechGestatorFormed_South</east>
+				<west>CN_MechGestatorFormed_South</west>
+				<south>CN_MechGestatorFormed_South</south>
+			</gestatorFormedMote>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1000</basePowerConsumption>
+				<idlePowerDraw>50</idlePowerDraw>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

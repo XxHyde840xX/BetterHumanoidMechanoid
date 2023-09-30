@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsMechGestator"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>CN_MechGestator</li>
+		</value>
+	</Operation>
+</Patch>

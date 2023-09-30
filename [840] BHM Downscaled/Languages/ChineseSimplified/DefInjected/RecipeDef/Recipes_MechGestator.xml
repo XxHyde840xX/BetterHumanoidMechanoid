@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Gestate_CNMaid.label>培育机械女仆</Gestate_CNMaid.label>
+  <Gestate_CNMaid.description>培育一只机械女仆。</Gestate_CNMaid.description>
+
+  <Gestate_Mech_CNNurse.label>培育机械护士</Gestate_Mech_CNNurse.label>
+  <Gestate_Mech_CNNurse.description>培育一只机械护士。</Gestate_Mech_CNNurse.description>
+
+  <Gestate_Mech_CNSwordsGirl.label>培育机械剑士</Gestate_Mech_CNSwordsGirl.label>
+  <Gestate_Mech_CNSwordsGirl.description>培育一只机械剑士。</Gestate_Mech_CNSwordsGirl.description>
+
+  <Gestate_Mech_CNCentipede.label>培育机械重装蜈蚣</Gestate_Mech_CNCentipede.label>
+  <Gestate_Mech_CNCentipede.description>培育一只机械重装蜈蚣。</Gestate_Mech_CNCentipede.description>
+
+
+</LanguageData>

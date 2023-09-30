@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Maid -->
+
+  <Mech_CNHG.label>机械电荷手枪</Mech_CNHG.label>
+  <Mech_CNHG.description>机械女仆所使用的双连发手枪。</Mech_CNHG.description>
+  <Mech_CNHG.tools.0.label>握把</Mech_CNHG.tools.0.label>
+  <Mech_CNHG.tools.1.label>枪管</Mech_CNHG.tools.1.label>
+
+  <Bullet_Mech_CNHG.label>电荷手枪子弹</Bullet_Mech_CNHG.label>
+
+  <Mech_CNMaid.label>机械女仆</Mech_CNMaid.label>
+  <Mech_CNMaid.description>一个经过升级的家务机器人。灵活的类人手臂以及生物级次级核心使得它能够高效处理家务，烹饪美食，是闪耀世界中比较流行的一种机器人。但作为殖民地专用型号，S4级家用女仆同时还配备一定的自卫武器用于在必要时候保护自己的主人与家园。\n尽管作为机械体本身应当是没有情感的，但CN4家务机器人却常常表现出比其他机械体更加温柔的行为，它们无微不至的照顾经常会使得控制它的机械师陷入无事可做的状态，因此也被称为“废人培养机”。此外，它们对于机械师的强大占有欲常常使得它们在进行保护机械师的战斗时陷入不可控的疯狂状态，这使得它们经常会遭到非常严重的破坏，因此如果不是必要情况，请不要让它们参与到战斗之中。\n尽管很多人都把这一切归咎于程序设定，但类人的外貌让殖民者们常常把它当做一个不会说话的朋友，当然也有个别具备奇怪癖好的机械师把它当做挚爱对待。</Mech_CNMaid.description>
+  <Mech_CNMaid.tools.0.label>左拳</Mech_CNMaid.tools.0.label>
+  <Mech_CNMaid.tools.1.label>右拳</Mech_CNMaid.tools.1.label>
+  <Mech_CNMaid.tools.2.label>头部</Mech_CNMaid.tools.2.label>
+
+
+  <!-- Nurse -->
+
+  <Mech_CNScalpel.label>手术刀</Mech_CNScalpel.label>
+  <Mech_CNScalpel.description>机械护士使用的外科手术刀。它可以救人，也可以害人。</Mech_CNScalpel.description>
+  <Mech_CNScalpel.tools.0.label>刀把</Mech_CNScalpel.tools.0.label>
+  <Mech_CNScalpel.tools.1.label>刀刃</Mech_CNScalpel.tools.1.label>
+  <Mech_CNScalpel.tools.2.label>刀尖</Mech_CNScalpel.tools.2.label>
+
+  <Mech_CNNurse.label>机械护士</Mech_CNNurse.label>
+  <Mech_CNNurse.description>经过升级的医疗机器人。灵活的类人手臂以及生物级次级核心使得它在手术以及包扎伤口时有着更高的效率以及更好的疗效，此外它还能够进行清洁与搬运工作。\n尽管作为机械体本身应当是没有情感的，但CN2级机械护士却常常表现出比其他机械体更加温柔的行为，并可以在治疗过程中有效地安抚伤者的情绪。\n尽管很多人都把这一切归咎于程序设定，但类人的外貌让殖民者们常常把它当做一个不会说话的朋友，当然也有个别具备奇怪癖好的机械师把它当做挚爱对待。</Mech_CNNurse.description>
+  <Mech_CNNurse.tools.0.label>左拳</Mech_CNNurse.tools.0.label>
+  <Mech_CNNurse.tools.1.label>右拳</Mech_CNNurse.tools.1.label>
+  <Mech_CNNurse.tools.2.label>头部</Mech_CNNurse.tools.2.label>
+
+
+  <!-- Centiplus -->
+
+  <Gun_CNElectroMagnetCannon.label>电磁速射炮</Gun_CNElectroMagnetCannon.label>
+  <Gun_CNElectroMagnetCannon.description>重装机械蜈蚣所使用的，几乎能持续开火的电磁加速武器。</Gun_CNElectroMagnetCannon.description>
+  <Gun_CNElectroMagnetCannon.tools.0.label>枪管</Gun_CNElectroMagnetCannon.tools.0.label>
+
+  <Bullet_ElectroMagnetCannon.label>电磁射弹</Bullet_ElectroMagnetCannon.label>
+
+  <Mech_CNCentipede.label>重装机械蜈蚣</Mech_CNCentipede.label>
+  <Mech_CNCentipede.description>经过升级的机械蜈蚣。在加强自身装甲的同时采用了生物级次级核心，这使得它们能够更加熟练地运用手中的武器，多出两条类人手臂也使得它们拥有了极佳的搬运能力。\n尽管作为机械体本身应当是没有情感的，但CN1级机械蜈蚣却表现出比其他机械体更加孤僻的行为，它们更愿意靠近机械师以及经常接触它们的人，对于外来者常常表现出疏离或者警戒的态度。\n尽管很多人都把这一切归咎于程序设定，但类人的外貌让殖民者们常常把它当做一个不会说话的朋友，当然也有个别具备奇怪癖好的机械师把它当做挚爱对待。</Mech_CNCentipede.description>
+  <Mech_CNCentipede.tools.0.label>左拳</Mech_CNCentipede.tools.0.label>
+  <Mech_CNCentipede.tools.1.label>右拳</Mech_CNCentipede.tools.1.label>
+  <Mech_CNCentipede.tools.2.label>头部</Mech_CNCentipede.tools.2.label>
+
+
+  <!-- SwordsGirl -->
+
+  <Mech_CNsword.label>机械长剑</Mech_CNsword.label>
+  <Mech_CNsword.description>机械剑士所使用的高科技长剑。</Mech_CNsword.description>
+  <Mech_CNsword.tools.0.label>剑柄</Mech_CNsword.tools.0.label>
+  <Mech_CNsword.tools.1.label>剑头</Mech_CNsword.tools.1.label>
+  <Mech_CNsword.tools.2.label>剑刃</Mech_CNsword.tools.2.label>
+
+  <Mech_CNSwordsGirl.label>机械剑士</Mech_CNSwordsGirl.label>
+  <Mech_CNSwordsGirl.description>一个经过升级的近战机器人。灵活的类人手臂以及生物级次级核心使得它有着更加致命的近战技能，电磁肌肉使得它们能以非常快的速度接近敌人并开始血腥的屠杀。\n尽管作为机械体本身应当是没有情感的，但CN3机械刀客却常常表现出比其他机械体更加活跃的行为，它们常常在移动时蹦跳着前进，犹如一只停不下来的兔子。此外，它们对于任何具备强烈女性特征（比如大胸）的人与物都会保持相当的距离，并试图与其比较。\n尽管很多人都把这一切归咎于程序设定，但类人的外貌让殖民者们常常把它当做一个不会说话的朋友，当然也有个别具备奇怪癖好的机械师把它当做挚爱对待。</Mech_CNSwordsGirl.description>
+  <Mech_CNSwordsGirl.tools.0.label>左拳</Mech_CNSwordsGirl.tools.0.label>
+  <Mech_CNSwordsGirl.tools.1.label>右拳</Mech_CNSwordsGirl.tools.1.label>
+  <Mech_CNSwordsGirl.tools.2.label>头</Mech_CNSwordsGirl.tools.2.label>
+
+
+</LanguageData>

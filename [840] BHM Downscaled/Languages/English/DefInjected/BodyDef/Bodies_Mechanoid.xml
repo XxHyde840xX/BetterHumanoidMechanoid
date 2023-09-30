@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Mech_CNCentipede.label>Heavy Mechanical Centipede</Mech_CNCentipede.label>
+	<Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.1.customLabel>Left Vision Sensor</Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.1.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.2.customLabel>Right Vision Sensor</Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.2.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.3.customLabel>Left Auditory Sensor</Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.3.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.4.customLabel>Right Auditory Sensor</Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.4.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.customLabel>Left Shoulder</Mech_CNCentipede.corePart.parts.0.parts.5.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.0.customLabel>Left Clavicle</Mech_CNCentipede.corePart.parts.0.parts.5.parts.0.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.customLabel>Left Arm</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.0.customLabel>Left Humerus</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.0.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.1.customLabel>Left Radius</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.1.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.customLabel>Left Hand</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.0.customLabel>Left Little Finger</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.0.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.1.customLabel>Left Ring Finger</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.1.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.2.customLabel>Left Middle Finger</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.2.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.3.customLabel>Left Index Finger</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.3.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.4.customLabel>Left Thumb</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.4.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.customLabel>Right Shoulder</Mech_CNCentipede.corePart.parts.0.parts.6.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.0.customLabel>Right Clavicle</Mech_CNCentipede.corePart.parts.0.parts.6.parts.0.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.customLabel>Right Arm</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.0.customLabel>Right Humerus</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.0.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.1.customLabel>Right Radius</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.1.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.customLabel>Right Hand</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.0.customLabel>Right Little Finger</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.0.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.1.customLabel>Right Ring Finger</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.1.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.2.customLabel>Right Middle Finger</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.2.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.3.customLabel>Right Index Finger</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.3.customLabel>
+	<Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.4.customLabel>Right Thumb</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

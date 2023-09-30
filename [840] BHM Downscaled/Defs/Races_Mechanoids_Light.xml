@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Maid -->
+	<ThingDef ParentName="BaseGun">
+		<defName>Mech_CNHG</defName>
+		<label>mech charge pistol</label>
+		<description>A two round burst charge pistol used by mechanoid maids.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Mech_CNHG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<weaponTags>
+			<li>Mech_CNHG</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<Mass>1.2</Mass>
+			<AccuracyTouch>0.1</AccuracyTouch>
+			<AccuracyShort>0.1</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<relicChance>0</relicChance>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Mech_CNHG</defaultProjectile>
+				<warmupTime>0.15</warmupTime>
+				<range>50.9</range>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>Shot_ChargeBlaster</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_ChargedMuzzleFalsh</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.25,0.1)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Mech_CNHG</defName>
+		<label>charge pistol bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="LightMechanoid">
+		<defName>Mech_CNMaid</defName>
+		<label>mechanoid maid</label>
+		<description>An upgraded housekeeping robot. Its flexible humanoid arms and biological-level secondary core enable it to efficiently handle housework and cook food. It is a popular robot in Glittering World. But as a colony-specific model, the S4-level housemaid is also equipped with certain self-defense weapons to protect its master and homeland when necessary.\n/n Although many people attribute all this to the programming, the humanoid appearance makes the colonists often treat it as a friend who cannot speak, and of course there are some mechanics with strange quirks Treat it as a beloved.</description>
+		<statBases>
+			<ControlTakingTime>30</ControlTakingTime>
+			<BandwidthCost>2</BandwidthCost>
+			<CleaningSpeed>1</CleaningSpeed>
+			<FoodPoisonChance>0.001</FoodPoisonChance>
+		</statBases>
+		<race>
+			<body>Lancer</body>
+			<mechEnabledWorkTypes>
+				<li>BasicWorker</li>
+				<li>Hauling</li>
+				<li>Cooking</li>
+				<li>Cleaning</li>
+			</mechEnabledWorkTypes>
+			<mechFixedSkillLevel>18</mechFixedSkillLevel>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Cleansweeper_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Cleansweeper_Death</soundDeath>
+					<soundCall>Pawn_Mech_Cleansweeper_Call</soundCall>
+				</li>
+			</lifeStageAges>
+		</race>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<PawnKindDef ParentName="NonCombatLightMechanoidKind">
+		<defName>Mech_CNMaid</defName>
+		<label>mechanoid maid</label>
+		<race>Mech_CNMaid</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CNMaidClean</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Maid</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponTags>
+			<li>Mech_CNHG</li>
+		</weaponTags>
+		<combatPower>400</combatPower>
+		<weaponMoney>9999~9999</weaponMoney>
+		<techHediffsChance MayRequire="Ludeon.RimWorld.Biotech">1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>
+		<controlGroupPortraitZoom>0.65</controlGroupPortraitZoom>
+		<isFighter>false</isFighter>
+	</PawnKindDef>
+
+	<!-- Nurse -->
+	<ThingDef ParentName="BaseWeapon">
+		<defName>Mech_CNScalpel</defName>
+		<label>scalpel</label>
+		<description>An surgical scalpel wielded by mechanoid nurse. It can save people, yet it can also kill people.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mech_CNKukriKnife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.6</drawSize>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<weaponTags>
+			<li>Mech_CNScalpel</li>
+		</weaponTags>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<equippedAngleOffset>-155</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MedicalOperationSpeed>0.25</MedicalOperationSpeed>
+			<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="LightMechanoid">
+		<defName>Mech_CNNurse</defName>
+		<label>mechanoid nurse</label>
+		<thingClass>CNmech.PawnWithDraftedGraphic</thingClass>
+		<description>An Upgraded medical droid. The flexible humanoid arm and biological secondary core make it more efficient and better in surgery and dressing wounds, and it can also perform cleaning and handling tasks./n Although as a mechanical body itself, it should be emotionless, CN2 mechanical nurses often show more gentle behavior than other mechanical bodies, and can effectively calm the emotions of the injured during the treatment process./n Although many people attribute all this to the programming, the humanoid appearance makes the colonists often treat it as a friend who cannot speak, and of course there are some mechanics with strange quirks Treat it as a beloved.</description>
+		<statBases>
+			<ControlTakingTime>30</ControlTakingTime>
+			<BandwidthCost>2</BandwidthCost>
+			<MoveSpeed>3.8</MoveSpeed>
+		</statBases>
+		<race>
+			<body>Lancer</body>
+			<mechEnabledWorkTypes>
+				<li>Doctor</li>
+				<li>BasicWorker</li>
+				<li>Hauling</li>
+				<li>Cleaning</li>
+			</mechEnabledWorkTypes>
+			<mechFixedSkillLevel>18</mechFixedSkillLevel>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Paramedic_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Paramedic_Death</soundDeath>
+					<soundCall>Pawn_Mech_Paramedic_Call</soundCall>
+				</li>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>2500</minAge>
+					<soundWounded>Pawn_Mech_Paramedic_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Paramedic_Death</soundDeath>
+					<soundCall>Pawn_Mech_Paramedic_Call</soundCall>
+				</li>
+			</lifeStageAges>
+		</race>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<PawnKindDef ParentName="LightMechanoidKind">
+		<defName>Mech_CNNurse</defName>
+		<label>mechanoid nurse</label>
+		<race>Mech_CNNurse</race>
+		<allowInMechClusters>false</allowInMechClusters>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CNNurseUAClean</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/CNNurseUA</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CNNurseClean</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/CNNurse</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponMoney>9999~9999</weaponMoney>
+		<defendPointRadius>0</defendPointRadius>
+		<weaponTags>
+			<li>Mech_CNScalpel</li>
+		</weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>
+		<isFighter>false</isFighter>
+	</PawnKindDef>
+
+	<!--Centiplus-->
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_CNElectroMagnetCannon</defName>
+		<label>electromagnetic cannon</label>
+		<description>A heavy electromagnetic accelerator capable of almost continuous firing.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/ElectroMagnetCannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>22</Mass>
+			<AccuracyTouch>0.36</AccuracyTouch>
+			<AccuracyShort>0.52</AccuracyShort>
+			<AccuracyMedium>0.52</AccuracyMedium>
+			<AccuracyLong>0.36</AccuracyLong>
+			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_ElectroMagnetCannon</defaultProjectile>
+				<warmupTime>0.7</warmupTime>
+				<range>54.9</range>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<burstShotCount>48</burstShotCount>
+				<soundCast>Shot_ChargeBlaster</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>22.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<relicChance>0</relicChance>
+		<weaponTags>
+			<li>ElectroMagnetCannon</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_ChargedMuzzleFalsh</def>
+				<drawSize>(2,1.5)</drawSize>
+				<offsets>
+					<li>(0.4,0)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_ElectroMagnetCannon</defName>
+		<label>electromagnet shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Thump</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>30</damageAmountBase>
+			<speed>90</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="MechCentipede">
+		<defName>Mech_CNCentipede</defName>
+		<label>centiplus</label>
+		<thingClass>CNmech.PawnWithDraftedGraphic</thingClass>
+		<description>An upgraded mechanical centipede. While strengthening their own armor, they adopted biological-level secondary cores, which allowed them to use the weapons in their hands more proficiently, and the two extra humanoid arms also gave them excellent handling capabilities./n Although the mechanical body itself should be emotionless, the CN1 mechanical centipede shows a more withdrawn behavior than other mechanical bodies. They are more willing to be close to the mechanic and people who often touch them, and often show alienation to outsiders Or a vigilant attitude. /n Although many people attribute all this to the programming, the humanoid appearance makes the colonists often treat it as a friend who cannot speak, and of course there are some mechanics with strange quirks Treat it as a beloved.</description>
+		<statBases>
+			<ControlTakingTime>30</ControlTakingTime>
+			<BandwidthCost>4</BandwidthCost>
+		</statBases>
+		<race>
+			<body>Mech_CNCentipede</body>
+			<mechEnabledWorkTypes>
+				<li>Hauling</li>
+				<li>Cleaning</li>
+			</mechEnabledWorkTypes>
+			<mechFixedSkillLevel>18</mechFixedSkillLevel>
+			<lifeStageAges Inherit="False">
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>2500</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+			</lifeStageAges>
+		</race>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BaseMechanoidKind">
+		<defName>Mech_CNCentipede</defName>
+		<label>centiplus</label>
+		<race>Mech_CNCentipede</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CentipedeGirlUAClean</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/CentipedeGirl</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CentipedeGirlClean</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/CentipedeGirl</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponTags>
+			<li>ElectroMagnetCannon</li>
+		</weaponTags>
+		<combatPower>400</combatPower>
+		<weaponMoney>9999~9999</weaponMoney>
+		<techHediffsChance MayRequire="Ludeon.RimWorld.Biotech">1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>
+		<controlGroupPortraitZoom>0.65</controlGroupPortraitZoom>
+		<isFighter>false</isFighter>
+	</PawnKindDef>
+
+	<!--SwordsGirl-->
+
+	<ThingDef ParentName="BaseWeapon">
+		<defName>Mech_CNsword</defName>
+		<label>longsword</label>
+		<description>An advanced sword wielded by mechanoid swordmaiden.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mech_CNsword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<weaponTags>
+			<li>Mech_CNsword</li>
+		</weaponTags>
+		<statBases>
+			<MarketValue>1400</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>46</power>
+				<cooldownTime>1.3</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>46</power>
+				<cooldownTime>1.3</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMechanoidWalker">
+		<defName>Mech_CNSwordsGirl</defName>
+		<label>mechanoid swordmaiden</label>
+		<thingClass>CNmech.PawnWithDraftedGraphic</thingClass>
+		<description>An upgraded melee robot. The flexible humanoid arms and biological secondary core make it have more deadly melee skills, and the electromagnetic muscles allow them to approach the enemy at a very fast speed and start a bloody carnage./n Although a mechanical body itself should be emotionless, CN3 mechanical swordsmen often show more active behavior than other mechanical bodies. They often jump forward when moving, like a rabbit that can't stop. In addition, they maintain a considerable distance from and attempt to compare anyone or anything with strong feminine characteristics (such as large breasts)./n Although many people attribute all this to the programming, the humanoid appearance makes the colonists often treat it as a friend who cannot speak, and of course there are some mechanics with strange quirks Treat it as a beloved.</description>
+		<race>
+			<mechEnabledWorkTypes>
+				<li>Hauling</li>
+				<li>Cleaning</li>
+			</mechEnabledWorkTypes>
+			<body>Lancer</body>
+			<baseHealthScale>1.32</baseHealthScale>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
+			<mechFixedSkillLevel>18</mechFixedSkillLevel>
+			<lifeStageAges Inherit="False">
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+					<soundCall>Pawn_Mech_Scyther_Call</soundCall>
+				</li>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>2500</minAge>
+					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+					<soundCall>Pawn_Mech_Scyther_Call</soundCall>
+				</li>
+			</lifeStageAges>
+		</race>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_Shield" />
+		</comps>
+		<statBases>
+			<ControlTakingTime>30</ControlTakingTime>
+			<BandwidthCost>2</BandwidthCost>
+			<EnergyShieldRechargeRate>0.5</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.7</EnergyShieldEnergyMax>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+		</statBases>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BaseMechanoidKind">
+		<defName>Mech_CNSwordsGirl</defName>
+		<label>mechanoid swordmaiden</label>
+		<race>Mech_CNSwordsGirl</race>
+		<combatPower>150</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CNSwordsGirlUAClean</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/SwordsGirlUA</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CNSwordsGirlClean</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/SwordsGirl</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<abilities>
+			<li>LongjumpMechLauncher</li>
+		</abilities>
+		<weaponMoney>9999~9999</weaponMoney>
+		<defendPointRadius>0</defendPointRadius>
+		<weaponTags>
+			<li>Mech_CNsword</li>
+		</weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>
+		<isFighter>false</isFighter>
+		<apparelRequired>
+			<li>Apparel_ShieldBelt</li>
+		</apparelRequired>
+	</PawnKindDef>
+</Defs>

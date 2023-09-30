@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Better Humanoid Mechanoid</name>
+	<author>CannonedMutton</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>Better.Humanoid.Mechanoid.CN</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld.Biotech</li>
+	</loadAfter>
+
+	<description>I have made a series of humanoid robots, which have higher skill levels and stronger weapons. In addition, there is a map switch between the conscription version and the non-conscription version, so that you can see their lovely faces in daily life and their handsome armor in battle
+
+This update includes four mechdroids: mechanical centipede, mechanical nurse, mechanical swordsman and mechanical maid, as well as new secondary core and cultivation buildings.
+
+They have more powerful weapons, more efficient performance, and the ability to carry, clean, and craft.
+
+A series of mechdroids, such as mechanic, mechanical sniper, mechanical commander and mechanical reload soldier, will be updated in the future
+
+我制作了一系列人形机器人，她们有着更高的技能等级以及更加强力的武器，此外还有着征召版与非征召版的贴图切换，可以让大家在日常生活看到她们可爱面庞的同时，也可以在战斗中看到她们的帅气装甲。
+本次更新有机械蜈蚣、机械护士、机械剑士以及机械女仆四个机械体，还有全新的次级核心、培育建筑。她们有着更加强力的武器，更高效的性能，以及搬运、清扫、制作等能力
+日后还会更新机械技师、机械狙击手、机械指挥官以及机械重装战士等一系列机械体，敬请期待。
+该模组支持CE，支持枪火mod。
+
+Я сделал серию человекоподобных роботов, которые имеют более высокий уровень навыков и более мощное оружие. Кроме того, есть переключение карт между призывной и не призывной версиями, чтобы вы могли видеть их милые лица в повседневной жизни и их красивую броню в бою.
+
+Это обновление включает в себя четырех мехдроидов: механическую многоножку, механическую медсестру, механического фехтовальщика и механическую горничную, а также новое вторичное ядро ​​и постройки для выращивания.
+
+У них более мощное оружие, более эффективная работа и возможность носить, чистить и создавать.
+
+Серия мехдроидов, таких как механик, механический снайпер, механический командир и механический солдат-перезарядка, будет обновлена ​​в будущем.
+
+感谢@ Caren Hortensia 提供的俄语语言包，同时欢迎其他国家的朋友提供该MOD的其他语言包，我将会把您一同放在作者一栏中，并优先提供我所创作的其他MOD的抢先体验版
+Thanks to @Caren Hortensia for providing the Russian language pack, and friends from other countries are welcome to provide other language packs of this MOD. I will put you in the author column and give priority to the early access version of other MODs I created
+
+	  </description>
+</ModMetaData>

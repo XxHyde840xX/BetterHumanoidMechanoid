@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+		<defName>ResurrectMechCN</defName>
+		<label>resurrect CN series mechanoid</label>
+		<description>Resurrect a friendly mechanoid of the CN series. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+		<recipeUsers>
+			<li>CN_MechGestator</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_Human</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Human</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Corpse_Mech_CNMaid</li>
+				<li>Corpse_Mech_CNNurse</li>
+				<li>Corpse_Mech_CNCentipede</li>
+				<li>Corpse_Mech_CNSwordsGirl</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

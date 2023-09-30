@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/Races_Mechanoids_Light.xml-->
+  <Mech_CNMaid.label>горничная-механоид</Mech_CNMaid.label>
+  <Mech_CNMaid.labelPlural>горничные-механоиды</Mech_CNMaid.labelPlural>
+  <Mech_CNMaid.labelMale>горничная-механоид</Mech_CNMaid.labelMale>
+  <Mech_CNMaid.labelMalePlural>горничные-механоиды</Mech_CNMaid.labelMalePlural>
+  <Mech_CNMaid.labelFemale>горничная-механоид</Mech_CNMaid.labelFemale>
+  <Mech_CNMaid.labelFemalePlural>горничные-механоиды</Mech_CNMaid.labelFemalePlural>
+
+
+  <!-- Nurse -->
+
+  <Mech_CNNurse.label>медсестра-механоид</Mech_CNNurse.label>
+  <Mech_CNNurse.labelPlural>медсестры-механоиды</Mech_CNNurse.labelPlural>
+  <Mech_CNNurse.lifeStages.0.label>медсестра-механоид</Mech_CNNurse.lifeStages.0.label>
+  <Mech_CNNurse.lifeStages.0.labelPlural>медсестры-механоиды</Mech_CNNurse.lifeStages.0.labelPlural>
+  <Mech_CNNurse.lifeStages.0.labelMale>медсестра-механоид</Mech_CNNurse.lifeStages.0.labelMale>
+  <Mech_CNNurse.lifeStages.0.labelMalePlural>медсестры-механоиды</Mech_CNNurse.lifeStages.0.labelMalePlural>
+  <Mech_CNNurse.lifeStages.0.labelFemale>медсестра-механоид</Mech_CNNurse.lifeStages.0.labelFemale>
+  <Mech_CNNurse.lifeStages.0.labelFemalePlural>медсестры-механоиды</Mech_CNNurse.lifeStages.0.labelFemalePlural>
+  <Mech_CNNurse.lifeStages.1.label>медсестра-механоид</Mech_CNNurse.lifeStages.1.label>
+  <Mech_CNNurse.lifeStages.1.labelPlural>медсестры-механоиды</Mech_CNNurse.lifeStages.1.labelPlural>
+  <Mech_CNNurse.lifeStages.1.labelMale>медсестра-механоид</Mech_CNNurse.lifeStages.1.labelMale>
+  <Mech_CNNurse.lifeStages.1.labelMalePlural>медсестры-механоиды</Mech_CNNurse.lifeStages.1.labelMalePlural>
+  <Mech_CNNurse.lifeStages.1.labelFemale>медсестра-механоид</Mech_CNNurse.lifeStages.1.labelFemale>
+  <Mech_CNNurse.lifeStages.1.labelFemalePlural>медсестры-механоиды</Mech_CNNurse.lifeStages.1.labelFemalePlural>
+  <Mech_CNNurse.labelMale>медсестра-механоид</Mech_CNNurse.labelMale>
+  <Mech_CNNurse.labelMalePlural>медсестры-механоиды</Mech_CNNurse.labelMalePlural>
+  <Mech_CNNurse.labelFemale>медсестра-механоид</Mech_CNNurse.labelFemale>
+  <Mech_CNNurse.labelFemalePlural>медсестры-механоиды</Mech_CNNurse.labelFemalePlural>
+
+
+  <!-- Centiplus -->
+
+  <Mech_CNCentipede.label>Механическая Тяжелая Сентипеда</Mech_CNCentipede.label>
+  <Mech_CNCentipede.labelPlural>Механические Тяжелые Сентипеды</Mech_CNCentipede.labelPlural>
+  <Mech_CNCentipede.lifeStages.0.label>Сентиплюс</Mech_CNCentipede.lifeStages.0.label>
+  <Mech_CNCentipede.lifeStages.0.labelPlural>Сентиплюсы</Mech_CNCentipede.lifeStages.0.labelPlural>
+  <Mech_CNCentipede.lifeStages.0.labelMale>сентиплюс</Mech_CNCentipede.lifeStages.0.labelMale>
+  <Mech_CNCentipede.lifeStages.0.labelMalePlural>сентиплюсы</Mech_CNCentipede.lifeStages.0.labelMalePlural>
+  <Mech_CNCentipede.lifeStages.0.labelFemale>сентиплюс</Mech_CNCentipede.lifeStages.0.labelFemale>
+  <Mech_CNCentipede.lifeStages.0.labelFemalePlural>сентиплюсы</Mech_CNCentipede.lifeStages.0.labelFemalePlural>
+  <Mech_CNCentipede.lifeStages.1.label>Сентиплюс</Mech_CNCentipede.lifeStages.1.label>
+  <Mech_CNCentipede.lifeStages.1.labelPlural>сентиплюсы</Mech_CNCentipede.lifeStages.1.labelPlural>
+  <Mech_CNCentipede.lifeStages.1.labelMale>Сентиплюс</Mech_CNCentipede.lifeStages.1.labelMale>
+  <Mech_CNCentipede.lifeStages.1.labelMalePlural>сентиплюсы</Mech_CNCentipede.lifeStages.1.labelMalePlural>
+  <Mech_CNCentipede.lifeStages.1.labelFemale>Сентиплюс</Mech_CNCentipede.lifeStages.1.labelFemale>
+  <Mech_CNCentipede.lifeStages.1.labelFemalePlural>сентиплюсы</Mech_CNCentipede.lifeStages.1.labelFemalePlural>
+  <Mech_CNCentipede.labelMale>Механическая Тяжелая Сентипеда</Mech_CNCentipede.labelMale>
+  <Mech_CNCentipede.labelMalePlural>Механические Тяжелые Сентипеды</Mech_CNCentipede.labelMalePlural>
+  <Mech_CNCentipede.labelFemale>Механическая Тяжелая Сентипеда</Mech_CNCentipede.labelFemale>
+  <Mech_CNCentipede.labelFemalePlural>Механические Тяжелые Сентипеды</Mech_CNCentipede.labelFemalePlural>
+
+
+  <!-- SwordsGirl -->
+
+  <Mech_CNSwordsGirl.label>Механическая Мечница</Mech_CNSwordsGirl.label>
+  <Mech_CNSwordsGirl.labelPlural>Механические Мечницы</Mech_CNSwordsGirl.labelPlural>
+  <Mech_CNSwordsGirl.lifeStages.0.label>мечница-механоид</Mech_CNSwordsGirl.lifeStages.0.label>
+  <Mech_CNSwordsGirl.lifeStages.0.labelPlural>мечницы-механоиды</Mech_CNSwordsGirl.lifeStages.0.labelPlural>
+  <Mech_CNSwordsGirl.lifeStages.0.labelMale>мечница-механоид</Mech_CNSwordsGirl.lifeStages.0.labelMale>
+  <Mech_CNSwordsGirl.lifeStages.0.labelMalePlural>мечницы-механоиды</Mech_CNSwordsGirl.lifeStages.0.labelMalePlural>
+  <Mech_CNSwordsGirl.lifeStages.0.labelFemale>мечница-механоид</Mech_CNSwordsGirl.lifeStages.0.labelFemale>
+  <Mech_CNSwordsGirl.lifeStages.0.labelFemalePlural>мечницы-механоиды</Mech_CNSwordsGirl.lifeStages.0.labelFemalePlural>
+  <Mech_CNSwordsGirl.lifeStages.1.label>мечница-механоид</Mech_CNSwordsGirl.lifeStages.1.label>
+  <Mech_CNSwordsGirl.lifeStages.1.labelPlural>мечницы-механоиды</Mech_CNSwordsGirl.lifeStages.1.labelPlural>
+  <Mech_CNSwordsGirl.lifeStages.1.labelMale>мечница-механоид</Mech_CNSwordsGirl.lifeStages.1.labelMale>
+  <Mech_CNSwordsGirl.lifeStages.1.labelMalePlural>мечницы-механоиды</Mech_CNSwordsGirl.lifeStages.1.labelMalePlural>
+  <Mech_CNSwordsGirl.lifeStages.1.labelFemale>мечница-механоид</Mech_CNSwordsGirl.lifeStages.1.labelFemale>
+  <Mech_CNSwordsGirl.lifeStages.1.labelFemalePlural>мечницы-механоиды</Mech_CNSwordsGirl.lifeStages.1.labelFemalePlural>
+  <Mech_CNSwordsGirl.labelMale>Механическая Мечница</Mech_CNSwordsGirl.labelMale>
+  <Mech_CNSwordsGirl.labelMalePlural>Механические Мечницы</Mech_CNSwordsGirl.labelMalePlural>
+  <Mech_CNSwordsGirl.labelFemale>Механическая Мечница</Mech_CNSwordsGirl.labelFemale>
+  <Mech_CNSwordsGirl.labelFemalePlural>Механические Мечницы</Mech_CNSwordsGirl.labelFemalePlural>
+
+</LanguageData>

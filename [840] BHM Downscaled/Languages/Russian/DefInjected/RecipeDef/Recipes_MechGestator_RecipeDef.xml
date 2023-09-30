@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/Recipes_MechGestator.xml-->
+<Gestate_CNMaid.label>вырастить горничную</Gestate_CNMaid.label>
+<Gestate_CNMaid.description>Вырастить механоида-горничную.</Gestate_CNMaid.description>
+<Gestate_Mech_CNNurse.label>вырастить медсестру</Gestate_Mech_CNNurse.label>
+<Gestate_Mech_CNNurse.description>Вырастить механоида-медсестру.</Gestate_Mech_CNNurse.description>
+<Gestate_Mech_CNSwordsGirl.label>вырастить мечницу</Gestate_Mech_CNSwordsGirl.label>
+<Gestate_Mech_CNSwordsGirl.description>Вырастить механоида-мечницу.</Gestate_Mech_CNSwordsGirl.description>
+<Gestate_Mech_CNCentipede.label>вырастить сентиплюс</Gestate_Mech_CNCentipede.label>
+<Gestate_Mech_CNCentipede.description>Вырастить сентиплюс механоида.</Gestate_Mech_CNCentipede.description>
+
+</LanguageData>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mech_CNCentipede.label>重装机械蜈蚣</Mech_CNCentipede.label>
+  <Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.1.customLabel>左视觉传感器</Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.1.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.2.customLabel>右视觉传感器</Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.2.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.3.customLabel>左听觉传感器</Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.3.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.4.customLabel>右听觉传感器</Mech_CNCentipede.corePart.parts.0.parts.4.parts.0.parts.4.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.customLabel>左肩</Mech_CNCentipede.corePart.parts.0.parts.5.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.0.customLabel>左锁骨</Mech_CNCentipede.corePart.parts.0.parts.5.parts.0.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.customLabel>左臂</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.0.customLabel>左肱骨</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.0.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.1.customLabel>左桡骨</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.1.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.customLabel>左手</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.0.customLabel>左尾指</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.0.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.1.customLabel>左无名指</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.1.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.2.customLabel>左中指</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.2.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.3.customLabel>左食指</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.3.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.4.customLabel>左拇指</Mech_CNCentipede.corePart.parts.0.parts.5.parts.1.parts.2.parts.4.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.customLabel>右肩</Mech_CNCentipede.corePart.parts.0.parts.6.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.0.customLabel>右锁骨</Mech_CNCentipede.corePart.parts.0.parts.6.parts.0.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.customLabel>右臂</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.0.customLabel>右肱骨</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.0.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.1.customLabel>右桡骨</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.1.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.customLabel>右手</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.0.customLabel>右尾指</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.0.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.1.customLabel>右无名指</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.1.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.2.customLabel>右中指</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.2.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.3.customLabel>右食指</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.3.customLabel>
+  <Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.4.customLabel>右拇指</Mech_CNCentipede.corePart.parts.0.parts.6.parts.1.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

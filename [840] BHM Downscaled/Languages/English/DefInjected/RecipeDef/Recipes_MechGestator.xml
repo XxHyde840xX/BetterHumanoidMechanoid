@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Gestate_CNMaid.label>Cultivate Mechanical Maid</Gestate_CNMaid.label>
+	<Gestate_CNMaid.description>Cultivate a Mechanical Maid.</Gestate_CNMaid.description>
+
+	<Gestate_Mech_CNNurse.label>Cultivate Mechanical Nurse</Gestate_Mech_CNNurse.label>
+	<Gestate_Mech_CNNurse.description>Cultivate a Mechanical Nurse.</Gestate_Mech_CNNurse.description>
+
+	<Gestate_Mech_CNSwordsGirl.label>CultivateMechanical Swordsgirl</Gestate_Mech_CNSwordsGirl.label>
+	<Gestate_Mech_CNSwordsGirl.description>Cultivate a Mechanical Swordsgirl.</Gestate_Mech_CNSwordsGirl.description>
+
+	<Gestate_Mech_CNCentipede.label>Cultivate Mechanical Heavy Centipede</Gestate_Mech_CNCentipede.label>
+	<Gestate_Mech_CNCentipede.description>Cultivate a Mechanical Heavy Centipede.</Gestate_Mech_CNCentipede.description>
+
+
+</LanguageData>
